@@ -1,0 +1,73 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/data/data",
+			"style": {
+				"navigationBarTitleText": "数据"
+			}
+		},
+		{
+			"path": "pages/alarm/alarm",
+			"style": {
+				"navigationBarTitleText": "报警"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "用户",
+				"navigationStyle": "custom"//设置不显示原生导航栏
+			}
+		},
+		{
+			"path": "pages/data/wrin",
+			"style": {
+			"navigationBarTitleText": "详情"
+			// 单页导航栏设置,"default"默认显示 "custom"关闭状态
+			// "navigationStyle": "custom"//设置不显示原生导航栏
+		   }
+		}
+	    // ,{
+     //        "path" : "pages/meta2d/meta2d",
+     //        "style" :                                                                                    
+     //        {
+     //            "navigationBarTitleText": "",
+     //            "enablePullDownRefresh": false
+     //        }
+            
+     //    }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"text": "首页"
+		},
+			{
+			"pagePath": "pages/data/data",
+			"text": "数据"
+		}, {
+			"pagePath": "pages/alarm/alarm",
+			"text": "警报"
+		},{
+			"pagePath": "pages/user/user",
+			"text": "用户"
+		}]
+	}
+}
